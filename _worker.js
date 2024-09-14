@@ -5,7 +5,7 @@ let proxyIP = '';
 // The user name and password do not contain special characters
 // Setting the address will ignore proxyIP
 // Example:  user:pass@host:port  or  host:port
-let socks5Address = '';
+let socks5Address = 'kmcherry:cc830930@kmcherry.serv00.net:52148';
 
 let addresses = [
 	//当sub为空时启用本地优选域名/优选IP，若不带端口号 TLS默认端口为443，#号后为备注别名
@@ -36,7 +36,7 @@ let RproxyIP = 'false';
 
 let addressesapi = [];
 let addressescsv = [];
-let DLS = 8;
+let DLS = 7000;
 
 let FileName = 'epeius';
 let BotToken ='';
