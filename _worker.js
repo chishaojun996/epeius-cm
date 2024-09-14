@@ -22,15 +22,15 @@ let addresses = [
 	'time.is',
 	'www.wto.org:8443',
 	'chatgpt.com:2087',
-	'icook.hk',
-	'104.17.0.0#IPv4',
+	'icook.tw',
+	'ip.sb',
 	'[2606:4700::]#IPv6'
 	*/
 ];
 
 let sub = ''; 
 let subconverter = 'SUBAPI.fxxk.dedyn.io';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假节点信息防泄露
-let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"; //订阅配置文件
+let subconfig = "https://raw.githubusercontent.com/kmcherry/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode(GSU)"; //订阅配置文件
 let subProtocol = 'https';
 let RproxyIP = 'false';
 
